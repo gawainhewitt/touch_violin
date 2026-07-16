@@ -81,9 +81,7 @@ Dependencies (declared in `platformio.ini`) are pulled in automatically by Platf
 
 ## About OrchLab
 
-OrchLab supports music-making and music appreciation with disabled adults through workshops, accessible instruments and technology, bespoke web activities, training, and events. It is run by the **London Philharmonic Orchestra** in partnership with **Drake Music**, and each year develops a brand-new accessible instrument in response to the access needs of its Community Partner participants. The Touch Violin is one of these instruments in the wider **OrchLab Touch Instruments** series.
-
-Learn more at the London Philharmonic Orchestra and Drake Music websites.
+[**OrchLab**](https://orchlab.org/) supports music-making and music appreciation with disabled adults through workshops, accessible instruments and technology, bespoke web activities, training, and events. It is run by the [**London Philharmonic Orchestra**](https://lpo.org.uk/project/orchlab/) in partnership with [**Drake Music**](https://www.drakemusic.org/music/projects-commissions-participation/orchlab/), and each year develops a brand-new accessible instrument in response to the access needs of its Community Partner participants. The Touch Violin is one of these instruments in the wider [**OrchLab Touch Instruments**](https://orchlab.org/meet-the-orchlab-touch-instruments/) series.
 
 ## Author
 
