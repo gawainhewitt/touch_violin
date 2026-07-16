@@ -1,6 +1,10 @@
 # Touch Violin
 
-An accessible electronic instrument built inside a real violin, developed by **Gawain Hewitt** for **OrchLab** — a long-term partnership between the **London Philharmonic Orchestra** and **Drake Music** that creates accessible instruments and music-making opportunities for disabled adults.
+![The Touch Violin with a man wearing a cap behind it pointing with both fingers](images/241127_J-TYE_LPO_10_OrchLab-Festival-Day-2024_4783-lo-res-name-removed.jpg)
+
+![The Touch Violin](images/DSC00579_small.jpeg)
+
+An accessible electronic instrument built inside a real violin, developed by [**Gawain Hewitt**](https://gawainhewitt.co.uk) for [**OrchLab**](https://orchlab.org/) — a long-term partnership between the [**London Philharmonic Orchestra**](https://lpo.org.uk/project/orchlab/) and [**Drake Music**](https://www.drakemusic.org/music/projects-commissions-participation/orchlab/) that creates accessible instruments and music-making opportunities for disabled adults.
 
 The Touch Violin gives a meaningful, expressive violin-playing experience to people with a wide range of physical impairments, without requiring the fine motor control needed to play a conventional violin.
 
