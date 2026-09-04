@@ -40,7 +40,7 @@ A cheap, playable, full-size second-hand violin. This build used one bought seco
 
 - Teensy 4.0
 - Teensy Audio Board (or equivalent audio shield wired directly, as used here)
-- MPR121 capacitive touch sensor breakout (12-channel) — this build uses a modified version of the Bare Conductive MPR121 library, `bc-mpr121-bus1`, on the I2C bus
+- MPR121 capacitive touch sensor breakout (12-channel) — this build uses a modified version of the Bare Conductive MPR121 library, `bc-mpr121-bus1`, on the 2nd I2C bus "bus1" as the audio shield uses bus0 and sharing it leads to glitches and audio dropout. 
 - A rotary encoder (for the bow wheel)
 - A logic level shifter (the encoder wants 5V, the Teensy runs at 3.3V)
 - A small I2C OLED/LCD display for the menu (driven with a custom `bus1_U8g2lib`, adapted from [u8g2](https://github.com/olikraus/u8g2))
@@ -50,20 +50,20 @@ A cheap, playable, full-size second-hand violin. This build used one bought seco
 - A [Pololu](https://www.pololu.com/) 5V step-up/regulator board, to give a constant 5V regardless of battery state
 - An exciter/transducer (this is what turns the violin body into the speaker — no separate speaker is used)
 - 3.5mm jack sockets: one for audio out, and a couple more as breakouts so external sensors can be wired in
-- A bespoke PCB breaking out Teensy, Teensy Audio Board and MPR121 connections (see the wiring photos below — you can replicate this with stripboard/perfboard if you don't have the PCB files)
-- Small offcuts of perfboard, for breaking out I2C to share between the audio board and the display, and for breaking out spare pins from the underside of the Teensy
+- A bespoke PCB breaking out Teensy, Teensy Audio Board and MPR121 connections (see the wiring photos below. I have supplied the gerber files so you can get your own made or you can replicate this with stripboard/perfboard)
+- Small offcuts of perfboard, for breaking out I2C bus1 to share between the audio board and the display, and for breaking out spare pins from the underside of the Teensy
 - 4x AA batteries and a battery holder (3D printed for this build — see [3D printed parts](#3d-printed-parts))
 
 ### Fixings and hardware
 
-- 8x hex/allen-key bolts sized to fit through the fingerboard into the neck (4 form the electrical + mechanical connection directly; the other 4 use nuts underneath for the electrical connection)
-- 8x brass threaded inserts (the same type used for heat-setting into 3D prints) — see the [fingerboard wiring](#the-fingerboard-and-neck) section for how these are used here, hammered rather than heat-set
+- 13 x hex/allen-key bolts sized to fit through the fingerboard into the neck (4 form the electrical + mechanical connection directly; the other 4 use nuts underneath for the electrical connection). The rest are to attach the lid of the violin. 
+- 9 x brass threaded inserts (the same type used for heat-setting into 3D prints) — see the [fingerboard wiring](#the-fingerboard-and-neck) section for how these are used here, hammered rather than heat-set. Again 5 are used to secure the lid. 
 - Tripod mount thread (built into the 3D printed wheel-end housing in this build)
 - Rubber table feet
 
 ### Tools
 
-- A saw or scalpel for opening the violin top (see the video linked below)
+- A thin tool for opening the violin top (see the video linked below)
 - A tool for scoring/marking the fingerboard centreline (a marking gauge or similar)
 - A hand drill (or pillar drill) and a wood bit with a centre spike, for accurate starting points
 - A sharp chisel (and ideally a curved/round one too, for cleaning grooves)
@@ -138,7 +138,7 @@ Once all the sensor holes are drilled, remove the neck — a similar process to 
 
 <img src="assets/images/10_empty_violin.jpg" alt="Gawain holding up the empty violin body, fingerboard and neck reassembled" style="width:100%; max-width:800px; display:block; margin-bottom:1em;">
 
-Drilling holes in the body of the violin to reattach the top, and fitting the rubber table feet, both happen around this stage too — see the full walkthrough video at the bottom of this page for more on that.
+Drilling holes in the body of the violin to reattach the top, and fitting the 3d printed table feet, both happen around this stage too — see the full walkthrough video at the bottom of this page for more on that.
 
 ## The battery holder
 
@@ -150,7 +150,7 @@ Drilling holes in the body of the violin to reattach the top, and fitting the ru
 
 <img src="assets/images/16_battery_holder_in_place.jpg" alt="The finished 3D printed battery holder fitted in the violin, with 4 AA batteries" style="width:100%; max-width:800px; display:block; margin-bottom:1em;">
 
-**Material matters here.** The battery holder needs two different plastics: the outer shell, which doesn't need to flex, can be printed in PLA — but the inner part with the spring-like fingers that grip the batteries needs to be **PETG**, because PLA is too brittle there and will snap. This build's PETG version has been in daily use for over two years with no issues.
+**Material matters here.** The battery holder needs two different plastics: the outer shell, which doesn't need to flex, can be printed in PLA — but the inner part with the spring-like fingers that holds it in needs to be **PETG**, because PLA is too brittle there and will snap. This build's PETG version has been in daily use for over two years with no issues.
 
 ## Wiring the neck and fingerboard
 
