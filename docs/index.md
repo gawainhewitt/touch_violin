@@ -243,7 +243,7 @@ The Touch Violin was built for OrchLab, a programme run by the London Philharmon
 
 The London Philharmonic Orchestra is one of the UK's leading orchestras, founded in 1932. Drake Music is a charity, run by disabled and non-disabled people together, focused on making music-making — including building new kinds of instruments — accessible to everyone.
 
-This build was made by Gawain Hewitt for the Omi Prize 2024–2025.
+This build was made by Gawain Hewitt for Orchlab 2024–2025.
 
 ## See it in action
 
