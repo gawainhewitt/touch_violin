@@ -6,7 +6,7 @@ title: Home
 
 The Touch Violin is an accessible instrument built into a real violin: capacitive touch sensors on the fingerboard play notes, a textured wheel — turned by a real bow — controls volume, a small menu system on the side lets you switch modes, and an exciter glued to the body vibrates the violin itself as the speaker (no separate speaker). It runs on AA batteries, and has a tripod mount and table feet.
 
-It was built by Gawain Hewitt for [OrchLab](#about-orchlab), a collaboration between the London Philharmonic Orchestra and Drake Music, as part of the Omi Prize 2024–2025.
+It was built by Gawain Hewitt for [OrchLab](#about-orchlab), a collaboration between the London Philharmonic Orchestra and Drake Music in 2024–2025.
 
 This page is a warts-and-all build guide. It's a bespoke, one-off instrument that was designed as it was built rather than from a finished plan, so treat this as a detailed account of one build rather than a strict spec — you'll need to adapt some steps to your own violin and parts.
 
