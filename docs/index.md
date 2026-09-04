@@ -30,17 +30,22 @@ Before you start, it's worth watching this short video which shows you what the 
 
 Once you've seen it, here's how to build your own.
 
+<img src="assets/images/original_sketch.jpg" alt="Original hand-drawn concept sketch of the Touch Violin" style="width:100%; max-width:800px; display:block; margin-bottom:0.3em;">
+<p style="margin-top:0; margin-bottom:1em; font-style:italic;">The original concept sketch: a touch strip for bowing, a wheel for bowing (worked with the finger touch strip to "bow" the instrument), embedded rods on the fingerboard for choosing notes, buttons, a screen, a volume control, and a speaker — most of which made it into the final build in some form, with the exciter replacing the separate speaker idea.</p>
+
 ## What you'll need
 
 ### The violin
 
 A cheap, playable, full-size second-hand violin. This build used one bought second-hand for around £30 — you don't need (and don't want) anything valuable, since you're going to be drilling and modifying it permanently.
 
+<img src="assets/images/violin_untouched.jpg" alt="The violin before any work began" style="width:100%; max-width:800px; display:block; margin-bottom:1em;">
+
 ### Electronics
 
 - Teensy 4.0
 - Teensy Audio Board (or equivalent audio shield wired directly, as used here)
-- MPR121 capacitive touch sensor breakout (12-channel) — this build uses a modified version of the Bare Conductive MPR121 library, `bc-mpr121-bus1`, on the 2nd I2C bus "bus1" as the audio shield uses bus0 and sharing it leads to glitches and audio dropout. 
+- MPR121 capacitive touch sensor breakout (12-channel) — this build uses a modified version of the Bare Conductive MPR121 library, `bc-mpr121-bus1`, on the 2nd I2C bus "bus1" as the audio shield uses bus0 and sharing it leads to glitches and audio dropout.
 - A rotary encoder (for the bow wheel)
 - A logic level shifter (the encoder wants 5V, the Teensy runs at 3.3V)
 - A small I2C OLED/LCD display for the menu (driven with a custom `bus1_U8g2lib`, adapted from [u8g2](https://github.com/olikraus/u8g2))
@@ -56,8 +61,8 @@ A cheap, playable, full-size second-hand violin. This build used one bought seco
 
 ### Fixings and hardware
 
-- 13 x hex/allen-key bolts sized to fit through the fingerboard into the neck (4 form the electrical + mechanical connection directly; the other 4 use nuts underneath for the electrical connection). The rest are to attach the lid of the violin. 
-- 9 x brass threaded inserts (the same type used for heat-setting into 3D prints) — see the [fingerboard wiring](#the-fingerboard-and-neck) section for how these are used here, hammered rather than heat-set. Again 5 are used to secure the lid. 
+- 13 x hex/allen-key bolts sized to fit through the fingerboard into the neck (4 form the electrical + mechanical connection directly; the other 4 use nuts underneath for the electrical connection). The rest are to attach the lid of the violin.
+- 9 x brass threaded inserts (the same type used for heat-setting into 3D prints) — see the [fingerboard wiring](#the-fingerboard-and-neck) section for how these are used here, hammered rather than heat-set. Again 5 are used to secure the lid.
 - Tripod mount thread (built into the 3D printed wheel-end housing in this build)
 - Rubber table feet
 
@@ -78,6 +83,8 @@ A cheap, playable, full-size second-hand violin. This build used one bought seco
 
 This build didn't document the process of taking the top off the violin — instead, here's someone else doing it, which gives you a good sense of what's involved:
 
+<img src="assets/images/opening_the_violin.jpg" alt="Prising the top away from the ribs of the violin" style="width:100%; max-width:800px; display:block; margin-bottom:1em;">
+
 <div style="position:relative; width:100%; max-width:800px; aspect-ratio:16/9; margin-bottom:1em;">
   <iframe src="https://www.youtube.com/embed/DdFS7o22ptM"
     title="How to open a violin"
@@ -89,6 +96,10 @@ This build didn't document the process of taking the top off the violin — inst
 </div>
 
 Violin tops are held on with hide glue — an animal glue that's deliberately weaker than the wood, so it fails cleanly and can be cleaned off and reset later (this is why violins can be repaired again and again). Because the glue is brittle and the violin is built to be acoustically resonant, removing the top produces loud, alarming cracks and pops. This is normal. Have a good look at the video above first, then go for it.
+
+<img src="assets/images/the_violin_opened.jpg" alt="The violin opened, top removed, neck and fingerboard still in place" style="width:100%; max-width:800px; display:block; margin-bottom:0.3em;">
+
+<img src="assets/images/violin_top.jpg" alt="The underside of the removed violin top" style="width:100%; max-width:800px; display:block; margin-bottom:1em;">
 
 ## Drilling the fingerboard and neck
 
@@ -247,8 +258,18 @@ This build was made by Gawain Hewitt for Orchlab 2024–2025.
 
 ## See it in action
 
-Two more videos belong here: one where the full build is talked through in more detail, and a second, shorter one just showing the finished instrument, its menu system, and the on/off switch in use.
+<div style="position:relative; width:100%; max-width:800px; aspect-ratio:16/9; margin-bottom:1em;">
+  <iframe src="https://www.youtube.com/embed/aExMwIFjilw"
+    title="Touch Violin Overview"
+    style="width:100%; height:100%; position:absolute; top:0; left:0;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
 
-*(YouTube links for these two needed — they're different from the "Close Look" overview and the third-party "opening a violin" video used earlier on this page.)*
+A second, shorter video belongs here too — just showing the finished instrument, its menu system, and the on/off switch in use.
+
+*(YouTube link for that second one still needed.)*
 
 Build your own Touch Violin!
