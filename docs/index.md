@@ -268,8 +268,14 @@ This build was made by Gawain Hewitt for Orchlab 2024–2025.
   </iframe>
 </div>
 
-A second, shorter video belongs here too — just showing the finished instrument, its menu system, and the on/off switch in use.
-
-*(YouTube link for that second one still needed.)*
+<div style="position:relative; width:100%; max-width:800px; aspect-ratio:16/9; margin-bottom:1em;">
+  <iframe src="https://www.youtube.com/embed/Kw9H5wHm3kg"
+    title="A close look at the violin"
+    style="width:100%; height:100%; position:absolute; top:0; left:0;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
 
 Build your own Touch Violin!
