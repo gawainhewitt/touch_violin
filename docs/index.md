@@ -4,4 +4,4 @@ title: Home
 
 # How to Build a Touch Violin
 
-Coming soon...
+![alt text](assets/images/top_view_bottom_half.jpg)
