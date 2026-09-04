@@ -81,9 +81,10 @@ A cheap, playable, full-size second-hand violin. This build used one bought seco
 
 ## Opening the violin
 
-This build didn't document the process of taking the top off the violin — instead, here's someone else doing it, which gives you a good sense of what's involved:
+<img src="assets/images/opening_the_violin.jpg" alt="Prising the top away from the ribs of the violin" style="width:100%; max-width:800px; display:block; margin-bottom:0.3em;">
+<p style="margin-top:0; margin-bottom:1em; font-style:italic;">Taking the lid off this violin.</p>
 
-<img src="assets/images/opening_the_violin.jpg" alt="Prising the top away from the ribs of the violin" style="width:100%; max-width:800px; display:block; margin-bottom:1em;">
+The full process wasn't filmed for this build, so here's someone else doing it on video, which gives you a good sense of what's involved:
 
 <div style="position:relative; width:100%; max-width:800px; aspect-ratio:16/9; margin-bottom:1em;">
   <iframe src="https://www.youtube.com/embed/DdFS7o22ptM"
